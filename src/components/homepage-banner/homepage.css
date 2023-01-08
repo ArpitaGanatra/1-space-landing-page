@@ -1,0 +1,111 @@
+.hompage__container {
+  height: 90vh;
+  display: flex;
+  width: 100vw;
+  /* padding: 2rem 10rem; */
+}
+
+.homepage__left__container {
+  /* background-color: aqua; */
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 0rem 2rem 20vw;
+}
+
+.homepage__left__container p {
+  font-size: 3.25rem;
+  font-weight: 700;
+  width: 21rem;
+  text-align: initial;
+  margin-top: 1rem;
+}
+
+.homepage__desc {
+  margin-bottom: 15rem;
+}
+
+.schedule__bar span {
+  color: #989898;
+}
+
+.location__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+}
+
+.homepage__right__container img {
+  border-top-right-radius: 300px;
+  border-top-left-radius: 300px;
+}
+
+.schedule__bar {
+  background: rgba(243, 243, 243, 0.6);
+  backdrop-filter: blur(17.7606px);
+  border-radius: 5px;
+  width: 45rem;
+  padding: 1.2rem 2rem;
+  position: absolute;
+  bottom: 17rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+button {
+  background-color: #fd5b2f;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 1rem 2.285rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.homepage__right__container .hero__banner {
+  height: 40rem;
+  margin-left: 5rem;
+}
+
+.homepage__right__container {
+  /* background-color: blue; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 2rem 10vw 2rem 0rem;
+  position: relative;
+}
+
+.homepage__right__container .solutions__img_1 {
+  /* position: absolute; */
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  margin-bottom: 4rem;
+}
+.homepage__right__container .solutions__img_2 {
+  border-radius: 50%;
+  height: 15rem;
+  width: 15rem;
+  position: absolute;
+  top: 5rem;
+  right: 18rem;
+}
+
+.homepage__right__container h1 {
+  position: absolute;
+  /* writing-mode: vertical-lr;
+  text-orientation: sideways; */
+  line-height: 10rem;
+  font-size: 3rem;
+  color: #000000;
+  opacity: 0.1;
+  right: 11rem;
+  bottom: 10rem;
+  transform: rotate(-90deg);
+}

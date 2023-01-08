@@ -1,0 +1,92 @@
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 5rem;
+  position: relative;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.footer__container::before {
+  content: "";
+  background: linear-gradient(180deg, rgba(253, 91, 47, 0) 0%, #fd5b2f 50%);
+  opacity: 0.1;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: -2rem;
+  left: 0px;
+}
+
+.footer__company__info {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 3rem;
+  /* opacity: 1; */
+}
+
+.footer__company__info h2 {
+  font-weight: 500;
+}
+
+.footer__company__info p {
+  line-height: 20px;
+  font-size: 0.875rem;
+  text-align: start;
+  margin-top: 0rem;
+}
+
+.footer__stack {
+  display: flex;
+  flex: 0.2;
+  flex-direction: column;
+
+  align-items: flex-start;
+}
+
+.footer__stack h4,
+.footer__socials h4 {
+  color: #fd5b2f;
+  letter-spacing: 0.1rem;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.footer__socials h4 {
+  margin-left: 0.5rem;
+}
+
+.footer__stack span {
+  text-align: start;
+  line-height: 38px;
+  /* margin-bottom: 5rem; */
+}
+
+.footer__socials {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.icon__container {
+  display: flex;
+}
+
+.icon {
+  background: white;
+  padding: 0.375rem 0.375rem;
+  border-radius: 50%;
+  margin: 1rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.icon ::after {
+  content: "";
+  background: white;
+  position: absolute;
+}

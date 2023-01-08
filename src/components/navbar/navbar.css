@@ -1,0 +1,29 @@
+.navbar__container {
+  display: flex;
+  padding: 2rem 10rem;
+}
+.nav__left__container,
+.nav__right__container {
+  flex: 0.4;
+  display: flex;
+}
+
+.nav__left__container > * {
+  margin-right: 5rem;
+  color: #686c75;
+}
+
+.nav__right__container > * {
+  margin-left: 5rem;
+  color: #686c75;
+}
+
+.nav__right__container {
+  justify-content: flex-end;
+}
+
+.nav__center__container {
+  flex: 0.2;
+  font-size: 30px;
+  font-weight: 400;
+}
