@@ -24,6 +24,5 @@
 .tabs ul .active button {
   background-color: #fd5b2f;
   color: #fff;
-  /* border: 1px solid #fd5b2f; */
   border-radius: 30px;
 }

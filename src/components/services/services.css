@@ -6,16 +6,13 @@
 
 .services__left__container {
   width: 100%;
-  /* background-color: aqua; */
   display: flex;
   justify-content: flex-end;
   position: relative;
   margin-right: 10rem;
-  /* flex: 0.45; */
 }
 
 .service__hero {
-  /* height: 35rem; */
   border-top-right-radius: 300px;
   border-top-left-radius: 300px;
 }
@@ -33,9 +30,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-
-  /* flex: 0.45; */
-  /* background-color: blue; */
 }
 
 .services__right__container h4 {

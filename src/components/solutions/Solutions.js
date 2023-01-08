@@ -37,34 +37,11 @@ const Solutions = () => {
         className="solutions__right__container"
         style={{ overflow: "hidden" }}
       >
-        {/* zdfasf */}
         <Slider>
           {images.map(({ url, title }, index) => (
             <img src={url} key={index} alt={title} />
           ))}
         </Slider>
-        {/* <Slider
-          onSlideComplete={(i) => {
-            console.log("finished dragging, current slide is", i);
-          }}
-          onSlideStart={(i) => {
-            console.log("started dragging on slide", i);
-          }}
-          activeIndex={0}
-          threshHold={100}
-          transition={0.5}
-          scaleOnDrag={true}
-          style={{ height: "100vh" }}
-        >
-          {images.map(({ url, title }, index) => (
-            <img
-              src={url}
-              key={index}
-              alt={title}
-              //   style={{ height: "500px", width: "500px" }}
-            />
-          ))}
-        </Slider> */}
       </div>
     </div>
   );

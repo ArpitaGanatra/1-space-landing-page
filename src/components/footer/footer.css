@@ -24,7 +24,6 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 0 3rem;
-  /* opacity: 1; */
 }
 
 .footer__company__info h2 {
@@ -61,7 +60,6 @@
 .footer__stack span {
   text-align: start;
   line-height: 38px;
-  /* margin-bottom: 5rem; */
 }
 
 .footer__socials {

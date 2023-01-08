@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   padding: 2rem 5rem;
-  /* width: 100%; */
 }
 
 .benefits__heading__content h4 {
@@ -33,10 +32,6 @@
   max-width: 18vw;
   padding: 1rem 1.5rem;
 }
-
-/* .benefits__container {
-  padding: 1rem 2rem;
-} */
 
 .benefits-card__container h3 {
   font-weight: 500;

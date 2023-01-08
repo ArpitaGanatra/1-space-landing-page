@@ -2,11 +2,9 @@
   height: 90vh;
   display: flex;
   width: 100vw;
-  /* padding: 2rem 10rem; */
 }
 
 .homepage__left__container {
-  /* background-color: aqua; */
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -73,7 +71,6 @@ button {
 }
 
 .homepage__right__container {
-  /* background-color: blue; */
   width: 100%;
   display: flex;
   align-items: center;
@@ -82,7 +79,6 @@ button {
 }
 
 .homepage__right__container .solutions__img_1 {
-  /* position: absolute; */
   border-radius: 50%;
   height: 10rem;
   width: 10rem;
@@ -99,8 +95,7 @@ button {
 
 .homepage__right__container h1 {
   position: absolute;
-  /* writing-mode: vertical-lr;
-  text-orientation: sideways; */
+
   line-height: 10rem;
   font-size: 3rem;
   color: #000000;
